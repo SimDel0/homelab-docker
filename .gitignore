@@ -1,0 +1,10 @@
+# Fichiers de configuration sensibles WireGuard et clés
+config/
+*.conf
+*.key
+*.pub
+
+# Fichiers et répertoires de Docker (logs, volumes, etc.)
+*.log
+volumes/
+.env

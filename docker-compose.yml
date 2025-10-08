@@ -1,0 +1,37 @@
+version: "3.8"
+services:
+  web1:
+    image: nginx
+    container_name: web1
+    ports:
+      - "8080:80"
+    networks:
+      - netlab
+
+  redis:
+    image: redis
+    container_name: redis
+    networks:
+      - netlab
+
+  netdata:
+    image: netdata/netdata
+    container_name: netdata
+    ports:
+      - "19999:19999"
+    networks:
+      - netlab
+
+  wireguard:
+    image: linuxserver/wireguard
+    container_name: wireguard
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "51820:51820/udp"
+    networks:
+      - netlab
+
+networks:
+  netlab:
+    driver: bridge
