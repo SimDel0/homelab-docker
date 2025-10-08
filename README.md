@@ -39,6 +39,6 @@ homelab-docker/
 - Bases du monitoring et de la connectivité inter-conteneurs
 - Mise en place d’un VPN dans un environnement Dockerisé
 
-##Améliorations futures
+## Améliorations futures
 - Ajouter un systeme de logs
 - Automatiser le déploiement du lab avec Ansible
