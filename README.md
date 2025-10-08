@@ -9,9 +9,11 @@ Ce projet met en place un petit environnement de **simulation réseau** avec Doc
 - Tester la configuration et la connexion via un VPN
 
 ## Architecture
+```
 homelab-docker/
 ├── README.md
 ├── docker-compose.yml
+├── .gitignore
 ├── netdata/
 │   └── config/...
 ├── vpn/
@@ -22,8 +24,7 @@ homelab-docker/
     ├── architecture.png
     ├── network_topology.md
     └── lessons_learned.md
-
-
+```
 - **Netdata** : supervise les conteneurs et les ressources hôtes  
 - **VPN** : permet de relier le lab à l’extérieur de façon sécurisée
 
