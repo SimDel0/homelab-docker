@@ -40,5 +40,6 @@ homelab-docker/
 - Mise en place d’un VPN dans un environnement Dockerisé
 
 ## Améliorations futures
+- Ajouter les docs
 - Ajouter un systeme de logs
 - Automatiser le déploiement du lab avec Ansible
