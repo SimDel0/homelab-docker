@@ -41,9 +41,7 @@ homelab-docker/
 |       └── wifi.log
 |       └── bluetooth.log           
 └── docs/
-    ├── architecture.png
-    ├── network_topology.md
-    └── lessons_learned.md
+    └── rapport.pdf
 
 ```
 
