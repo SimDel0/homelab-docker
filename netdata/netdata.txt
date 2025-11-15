@@ -1,0 +1,30 @@
+Netdata - Monitoring en temps réel
+
+Description :
+-------------
+Netdata est un outil de supervision et de monitoring des systèmes et applications.
+Il permet de visualiser en temps réel :
+- l'utilisation CPU et mémoire
+- les performances des disques et du réseau
+- l'état des conteneurs Docker
+- les services et applications (comme VPN, Netdata agents)
+
+Installation :
+-------------
+Dans ce projet, Netdata tourne dans un conteneur Docker pour monitorer l'hôte et les autres conteneurs.
+
+Accès :
+-------
+Netdata est accessible via le navigateur à l'adresse suivante :
+http://localhost:19999
+
+- Port par défaut : 19999
+- Interface locale (accessible uniquement depuis la machine hôte)
+- Permet de visualiser graphiquement les métriques système et réseau
+
+Utilité dans ce projet :
+------------------------
+- Observer les ressources consommées par les conteneurs Docker
+- Détecter les anomalies réseau ou CPU
+- Tester la robustesse de l’architecture en situation de charge ou d’attaque
+- Fournir des données de logs pour corrélation avec rsyslog

@@ -1,0 +1,19 @@
+Rapport des résultats
+
+Description :
+-------------
+Ce document servira à présenter et analyser les résultats des tests réalisés
+dans le cadre du projet homelab-docker.
+
+Contenu prévu :
+---------------
+- Résultats de la supervision avec Netdata
+- Logs réseau et système collectés via rsyslog
+- Tests de robustesse face aux attaques simulées (Wi-Fi, Bluetooth, etc.)
+- Observations sur la performance des conteneurs Docker et de l’hôte
+- Conclusions et recommandations
+
+Statut actuel :
+---------------
+Le rapport détaillé est en cours de préparation.
+Il sera ajouté prochainement une fois l’ensemble des tests finalisés.
