@@ -36,10 +36,17 @@ homelab-docker/
 │   └── docker-compose.yml
 ├── bridge-vm/
 │   └── Dockerfile
+├── logs/
+│   ├── rsyslog/
+│   │   ├── rsyslog.conf
+│   │   └── rules.d/
+│   ├── captured_events.log      
+│   └── m5_events.db             
 └── docs/
     ├── architecture.png
     ├── network_topology.md
     └── lessons_learned.md
+
 ```
 
 ###Composants utilisés
